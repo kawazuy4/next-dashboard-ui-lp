@@ -21,6 +21,15 @@ const config: Config = {
         lamaYellow:"#FAE27C",
         lamaYellowLight:"#FEFCE8",
 
+      },
+       animation: {
+        'bounce-x': 'bounceX 1s infinite',
+      },
+      keyframes: {
+        bounceX: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(6px)' },
+        },
       }
     },
   },
